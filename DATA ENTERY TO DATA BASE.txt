@@ -1,0 +1,38 @@
+JUST COPY & PASTE 
+
+<<<<Creating DB TABLE>>>>(required)
+
+
+	create table output(id serial primary key,reg_num varchar,time time,date date,authentication varchar,User_name varchar,parking_lot varchar,entry varchar);		>>>FOR OUTPUT DATA 
+
+	create table users(lc_number varchar primary key,User_name varchar);																>>>FOR USER REGISTRATION DATA
+
+	create table login(user_id varchar primary key,password varchar);																	>>>FOR LOGIN SECURITY DATA
+	
+
+<<<<FOR VIEW TABLE DATA'S>>>
+
+
+	SELECT * FROM <<TABLE_NAME>>;																							>>>TO DISPLAY DATA IN TABLE
+
+
+<<<<FOR CLEARING DATA'S IN TABLE>>>>
+
+
+
+	TRUNCATE TABLE <<TABLE_NAME>>;																						>>>THIS WILL REMOVE ALL DATA FROM <<<TABLE_NAME>>>
+
+
+<<<<FOR DROPING TABLES IN DN>>>
+
+
+	DROP TABLE <<TABLE_NAME>>;																							>>>THIS WILL DELETE THE <<TABLE_NAME>> FROM DATABASE
+
+
+<<>>
+
+**Remember to put ';' @ end of every line.
+***<<TABLE_NAME>> == Your database table name.
+
+
+
